@@ -26,4 +26,8 @@ Fork ---> Pull Request.
 
 加我微信：daimajia 记着加备注
 
+## iOS 版本有么？
+
+有的，点[这里](https://github.com/ganhuo/iOS-Ganhuo)!
+
 
