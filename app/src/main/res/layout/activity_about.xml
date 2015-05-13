@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/app_logo" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="干货集中营"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="每天为大家分享 IT 干货" />
+
+        <TextView
+            style="?attr/about_title"
+            android:text="背景" />
+
+        <TextView
+            style="?attr/about_content"
+            android:text="最早是干货集中营邮件订阅日报，但是发现很多小伙伴的邮箱收不到，随即开发这个轻量的 App，让大家畅通接收干货。" />
+
+
+        <TextView
+            style="?attr/about_title"
+            android:text="获取" />
+
+        <TextView
+            style="?attr/about_content"
+            android:text="干货会在每天中午12：00 - 12：30之间通过推送的方式发给所有App。" />
+
+        <TextView
+            style="?attr/about_title"
+            android:text="开源" />
+
+        <TextView
+            style="?attr/about_content"
+            android:text="干货集中营 Android 以及 iOS 版本的 App 都是开源的，你可以选择成为干货编辑或者成为干货 App 的开发者为干货集中营贡献力量。开源地址： github.com/ganhuo" />
+
+        <TextView
+            style="?attr/about_title"
+            android:text="组织" />
+
+        <TextView
+            style="?attr/about_content"
+            android:text="每天干活战斗小组的编辑们会在清晨，打开 GitHub，采摘一个又一个美味的干货。如果你也想加入干货战斗小组，联络我的微信：daimajia" />
+
+        <TextView
+            style="?attr/about_title"
+            android:text="最后" />
+
+        <TextView
+            style="?attr/about_content"
+            android:text="感谢所有的编辑们和为此付出的开发者们。" />
+
+    </LinearLayout>
+</ScrollView>
